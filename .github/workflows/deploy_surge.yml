@@ -27,5 +27,5 @@ jobs:
       - name: Install Surge
         uses: npm install -g surge
       - name: Run Surge
-        uses: surge ./ myapp.surge.sh --token${{secrets.SURGE_TOKEN}}
+        uses: surge ./ myapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
